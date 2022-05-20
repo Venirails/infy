@@ -1,0 +1,15 @@
+<h1> Hello Rails,this is my first app</h1>
+
+
+<%= form_with(url: "/search", method: "get")do |f| %>
+
+<%= f.text_field :name %>
+<%= f.password_field :password %>
+<%= f.text_area :address%>
+<%= f.check_box :age%>
+<%= f.radio_button :yes,1%>
+<%= f.month_field :user %>
+<%= f.color_field :color%>
+<% f.submit %>
+<% end %>
+

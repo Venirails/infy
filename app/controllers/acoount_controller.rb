@@ -1,0 +1,2 @@
+class AcoountController < ApplicationController
+end
